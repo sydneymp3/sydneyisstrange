@@ -16,7 +16,7 @@ thank you!!!! life and time saver frfr
 /* BACKGROUND */
 
 body {
-	background: url('https://cdn.discordapp.com/attachments/461586735252373505/1155692135119585361/image.png') center center fixed;
+	background: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/image.png') center center fixed;
 	background-size: 100%;
 	font-family: 'Caveat', cursive !important;
 font-family: 'Cedarville Cursive', cursive;
@@ -614,7 +614,7 @@ height: 150px!important;
 
 /* BACKGROUND OF MAIN LION ICON */
 #lion_image>div>img:first-child {
-content: url('https://cdn.discordapp.com/attachments/461586735252373505/1155692135119585361/image.png')!important;
+content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/image.png')!important;
 transform: scaleX-1)!important;
 top: -100px!important;
 left: -10px!important;
@@ -627,13 +627,13 @@ height: 500px!important;
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156087328180285550/Untitled20design204.png?ex=6513b1ba&is=6512603a&hm=f71d66e738e88e497e6a8a92d01822d546c8ba88c04c6ecfbc9daf31c8a68ac6&')
+	content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/Untitled20design204.png')
 }
 
 /* CAVE / MOUND IMAGES */
 
 div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156071986754232340/Hxz2npFnsYkjAAAAAElFTkSuQmCC.png') !important;
+	content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/Hxz2npFnsYkjAAAAAElFTkSuQmCC.png') !important;
 width: 90px;
 height: 90px;
 margin-top: 10px
@@ -656,11 +656,11 @@ a[href$="https://www.lioden.com/cave.php?id=106837"]>div.cave-grid>img {
 }
 
 a[href$="lionoverview.php?id=165331"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156071354722951218/MQAAAABJRU5ErkJggg.png') !important
+	content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/MQAAAABJRU5ErkJggg.png') !important
 }
 
 a[href$="unsorted.php?id=165331"]>div.cave-grid>img /* Unsorted */ {
-	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156072304296591360/iJX6kVNwNjUAAAAASUVORK5CYII.png') !important;
+	content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/iJX6kVNwNjUAAAAASUVORK5CYII.png') !important;
 	
 
 }
@@ -773,14 +773,14 @@ td.top, small {
  
 /* GOLD BEETLE */
 img[src$="gold.png"] {
-    content:url('https://cdn.discordapp.com/attachments/461586735252373505/1154265943472615434/moonstone.png')!important;
+    content:url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/fe3a1ffc6a207319d8beb836c84a4cf4442a666d/moonstone.png')!important;
     width:20px!important;
  
 }
  
 /* SILVER BEETLE */
 img[src$="silver.png"] {
-    content:url('https://cdn.discordapp.com/attachments/461586735252373505/1154265943711686666/feather_swan.png')!important;
+    content:url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/fe3a1ffc6a207319d8beb836c84a4cf4442a666d/feather_swan.png')!important;
     width: 25px !important;
 height: 25px !important;
 }
