@@ -1,0 +1,964 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+
+Some codes were made by pandora, kat, and moses. they can be found in this forum:
+https://www.lioden.com/topic.php?id=304429448254
+thank you!!!! life and time saver frfr
+*/
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Rock+Salt&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://cdn.discordapp.com/attachments/461586735252373505/1155692135119585361/image.png') center center fixed;
+	background-size: 100%;
+	font-family: 'Caveat', cursive !important;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Rock Salt', cursive;
+        text-transform: lowercase !important;
+	color: #00070B
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(233, 236, 250, 0.3);
+	border: none;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: #00070B;
+	border: none;
+	border-top: none;
+	color: #D3D0DE;
+	border-radius:4px;
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: #636773;
+	border-bottom: none;
+	color: #000000;
+	border-radius: 0px
+        text-transform: lowercase !important;
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: white !important;
+        font-family: 'Caveat';
+        font-size: 22px;
+        padding-top: 15px;
+        border-radius: 0px;
+        text-transform: lowercase !important;
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: rgba(211, 208, 222, 0.7) !important;
+	border-bottom: none;
+	color: #000000 !important;
+	border-radius: 0px
+        text-transform: lowercase !important;
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(190, 188, 201, 1)!important;
+        border: none;
+	border-radius: 0px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #000000
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "template by katie (#106445), edited by rowan (#165331) ★";
+        color: #000000;
+        position: absolute;
+        right: 11%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright, input.floatright:hover {
+	background: rgba(1, 1, 1, 0.5) !important;
+        border: none !important;
+	border-radius: 0px;
+	color: #000000 !important;    
+}
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button, button.button:hover {
+	background: #E9ECFA;
+        border: none !important;
+	border-radius: 0px;
+        text-shadow: none !important;
+	color: #00070B !important
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: rgba(211, 208, 222, 0.5) !important;
+	border: none;
+	color: #000000;
+	border-radius: 2px !important
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #000000;
+	font-size: 60px;
+	text-align: center;
+        font-family: 'Rock Salt'
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #000000;
+	font-size: 24px;
+	text-align: center
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #000000 !important;
+	font-size: 14px !important
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #000000 !important;
+        font-size: 26px !important;
+        font-family: 'Caveat'
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(190, 188, 201, 1) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #000000 !important;
+	border-radius: 3px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(233, 236, 250, 0.4);
+	color: #000000 !important;
+	border-radius: 0px !important
+}
+
+div.progress {
+border-radius:10px !important;
+}
+ 
+div.progress-bar {
+border-radius:10px !important;
+}
+
+/* ENERGY BAR COLOR */
+ 
+div.progress-bar-warning {
+    background: #3D4A62!important;
+}
+ 
+/* HUNGER */
+ 
+div.progress-bar-danger {
+    background: #65748B!important;
+}
+ 
+/* EXP. */
+ 
+div.progress-bar-success {
+    background: #7F7C8C!important; 
+}
+ 
+/* IMP. */
+ 
+div.progress-bar {
+    background: #E9ECFA;
+}
+ 
+ 
+/* ACHIEVMENTS */
+div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
+background: #7F7C8C!important;
+}
+ 
+/* ACCOUNT STANDING */
+th > div > div.progress-bar.progress-bar-success {
+    background: #E9ECFA!important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: #D3D0DE !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: #E9ECFA !important;
+        color: #00070B !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: #00070B !important;
+        color: #E9ECFA !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #000000 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: #E9ECFA !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+/* COMMENT BOX */
+
+div#commentBox, div#makeComment, div#commentErrors {
+    border-radius: 5px !important;
+    background: #D3D0DE!important; 
+	  color: #E9ECFA!important;
+    border: none;
+  	margin-top: 10px !important;
+}
+
+img.floatleft.commentTag.clear {
+    border-radius: 5px!important;
+    border: none !important;
+}
+
+div.comment:nth-child(even) {
+  	background: #D3D0DE!important; 
+	  color: #3D4A62!important;
+    border-bottom: none !important;
+}
+
+div.comment:nth-child(odd) {
+    background: #E9ECFA!important; 
+	  color: #3D4A62!important;
+    border-bottom: none !important;
+}
+
+input#comment {
+    background: #E9ECFA!important; 
+	color: #A48151!important;
+    border: none !important;
+text-transform: lowercase;
+}
+
+input#postComment {
+    background: #7F7C8C!important; 
+	color: #00070B!important;
+    border: none !important;
+}
+
+div#commentErrors {
+    background: #7F7C8C !important; 
+	  color: #80513B !important;
+    border: none !important;
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: #D3D0DE;
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 5px
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+#about > tbody > tr:nth-child(1) > td > div::after {
+    content:', are you cereal?';
+    font-size:17px;
+    
+}
+
+.top,
+th {
+	background: #00070B !important;
+	color: #D3D0DE !important;
+	border-radius: 5px
+}
+
+.bottom,
+th { 
+      background: #636773 !important;
+	color: #000000 !important;
+	border-radius: 5px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: #636773 !important;
+        color: #E9ECFA;
+	border-radius: 5px
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: #E9ECFA;
+	border-radius: 5px !important
+}
+
+td.right {
+	border-radius: 5px !important
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: #D3D0DE;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+.cave-grid,
+.mound-grid a {
+	color: #00070B !important;
+}
+
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(233, 236, 250, 0.5) !important;
+	color: #000000 !important;
+	border: 1px solid #000000 !important;
+	border-radius: 0px !important
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: #D3D0DE;
+	border: none;
+	border-radius: 0px !important
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: #E9ECFA;
+        border-radius: 0px
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: #E9ECFA !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: #000000 !important;
+	box-shadow: none !important;
+	text-shadow: none !important
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: #636773 !important;
+	color: #000000  !important;
+	border-radius: 0px !important;
+}
+
+.item {
+	background: #E9ECFA !important;
+	border: none !important;
+	border-radius: 0px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #D3D0DE !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #00070B !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: white !important;
+        text-shadow: none !important
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #F2F4F9 !important
+
+}
+
+.topbar a {
+	color: #F2F4F9 !important;
+}
+
+.top a {
+	color: #F2F4F9 !important;
+}
+
+
+.inner-table .right a {
+	color: #6C7891 !important;
+        text-decoration: none !important;
+}
+
+.s-chat-message:nth-child(even) a {
+	color: #000000 !important;
+}
+
+.s-chat-message:nth-child(odd) a {
+	color: #000000 !important;
+}
+
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #E9ECFA !important;
+	        transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+/* BOXES */
+
+.box1 {
+	float: center;
+	overflow-y: hidden !important;
+	overflow-x: hidden;
+        background: #D3D0DE;
+	color: #00070B;
+	padding: 2px;
+	border: none;
+	border-radius: 5px;
+	margin: 15px;
+	height: 100px;
+	width: 390px;
+	overflow: auto;
+}
+
+
+/* PAGEDOLL */
+
+
+.holetoanotheruniverse {
+        position:fixed;
+        z-index: 99;
+        bottom: 0px;
+        left: 0px;
+        width:18%;
+}
+
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #ffffff
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #BCB9C8;
+	border-radius: 5px
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.7
+}
+
+table#player img {
+	opacity: 1
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+width: 150px!important;
+height: 150px!important;
+}
+
+/* BACKGROUND OF MAIN LION ICON */
+#lion_image>div>img:first-child {
+content: url('https://cdn.discordapp.com/attachments/461586735252373505/1155692135119585361/image.png')!important;
+transform: scaleX-1)!important;
+top: -100px!important;
+left: -10px!important;
+width: 640px!important;
+height: 500px!important;
+ 
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156087328180285550/Untitled20design204.png?ex=6513b1ba&is=6512603a&hm=f71d66e738e88e497e6a8a92d01822d546c8ba88c04c6ecfbc9daf31c8a68ac6&')
+}
+
+/* CAVE / MOUND IMAGES */
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156071986754232340/Hxz2npFnsYkjAAAAAElFTkSuQmCC.png') !important;
+width: 90px;
+height: 90px;
+margin-top: 10px
+}
+
+a[href$="https://www.lioden.com/cave.php?id=100655"]>div.cave-grid>img {
+	content: url('IMAGE URL') !important
+}
+a[href$="https://www.lioden.com/cave.php?id=106832"]>div.cave-grid>img {
+	content: url('IMAGE URL') !important
+}
+a[href$="https://www.lioden.com/cave.php?id=385686"]>div.cave-grid>img {
+	content: url('IMAGE URL') !important
+}
+a[href$="https://www.lioden.com/cave.php?id=115688"]>div.cave-grid>img {
+	content: url('IMAGE URL') !important
+}
+a[href$="https://www.lioden.com/cave.php?id=106837"]>div.cave-grid>img {
+	content: url('IMAGE URL') !important
+}
+
+a[href$="lionoverview.php?id=165331"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156071354722951218/MQAAAABJRU5ErkJggg.png') !important
+}
+
+a[href$="unsorted.php?id=165331"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://cdn.discordapp.com/attachments/461586735252373505/1156072304296591360/iJX6kVNwNjUAAAAASUVORK5CYII.png') !important;
+	
+
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://static.lioden.com/images/items/Amusement/featherhornbill.png");
+	width: 0;
+	height: 0;
+	padding-top: px;
+	padding-right: 130px
+}
+
+/* RBEGON, UGLY EMOJI UPDATE! let me edit them pleaaase lioden lioden please lioden lioden please i need to put silly little kiwi where u can gift me n shit 
+code by pandora and kat */
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
+	font-size:0px;
+}   
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1)::after {
+	content:'Message';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3) {
+	font-size:0px;
+}   
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(3)::after {
+	content:'Send Gift!';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(5)::after {
+	content:'Create Trade';
+	font-size:18px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+	content:'View Wishlist';
+	font-size:14px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+	font-size:0px;
+}
+
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+	content:'View Trades';
+	font-size:14px;
+}
+
+/* REMOVE ICONS (refer a friend/wishlist) */
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1) {
+    font-size:0px;
+}
+ 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(1)::after {
+    content:'Refer a Friend';
+    font-size:18px;
+}
+ 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3) {
+    font-size:0px;
+}
+ 
+#player > tbody > tr.right > td:nth-child(1) > p > a:nth-child(3)::after {
+    content:'View Your Wishlist';
+    font-size:18px;
+}
+
+/* REMOVE ICON (block member) */
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a {
+    font-size:0px;
+    
+}
+ 
+#player > tbody > tr:nth-child(3) > td:nth-child(1) > a::after {
+    content:'Block Member';
+    font-size:14px;
+}
+
+/* REMOVE WHITE LINE */
+    hr {
+display:none;
+}
+
+/* REMOVE 'Member ID' */
+div.floatright > small {
+    display:none;
+}
+/* FONT SIZE EDIT ON PLAYER BOX */
+div.center.h3 {
+    font-size:25px;
+}
+ 
+td.top, small {
+    font-size:14px;
+}
+
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://cdn.discordapp.com/attachments/461586735252373505/1154265943472615434/moonstone.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://cdn.discordapp.com/attachments/461586735252373505/1154265943711686666/feather_swan.png')!important;
+    width: 25px !important;
+height: 25px !important;
+}
+
+/* MEMBER ONLINE */
+ 
+.member-online {
+    background: #6C7891;
+ 
+}
+ 
+/* MEMBER OFFLINE */
+ 
+.member-offline {
+    background: #00070B;
+ 
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+/* SOCIAL MEDIA */
+
+ img[src$="iconFB.png"] {
+        filter: brightness(100%) opacity(10%);
+        transition: 0.5s !important;
+}
+     img[src$="iconFB.png"]:hover,
+a[href="https://www.facebook.com/liodengame/"]:hover img,
+a[href="https://www.facebook.com/liodengame/"]:active img,
+a[href="https://www.facebook.com/liodengame/"]:focus img {
+        filter: brightness(100%) opacity(70%);
+}
+
+     img[src$="iconTwit.png"] {
+        filter: brightness(100%) opacity(10%);
+        transition: 0.5s !important;
+}
+     img[src$="iconTwit.png"]:hover,
+a[href="https://twitter.com/liodengame"]:hover img,
+a[href="https://twitter.com/liodengame"]:active img,
+a[href="https://twitter.com/liodengame"]:focus img {
+        filter: brightness(100%) opacity(70%); 
+}
+
+ img[src$="iconTwitch.png"] {
+        filter: brightness(100%) opacity(10%);
+        transition: 0.5s !important;
+}
+     img[src$="iconTwitch.png"]:hover,
+a[href="https://www.twitch.tv/lioden"]:hover img,
+a[href="https://www.twitch.tv/lioden"]:active img,
+a[href="https://www.twitch.tv/lioden"]:focus img {
+        filter: brightness(100%) opacity(70%);
+}
+
+ img[src$="iconYoutube.png"] {
+        filter: brightness(100%) opacity(10%);
+        transition: 0.5s !important;
+}
+     img[src$="iconYoutube.png"]:hover,
+a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:hover img,
+a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:active img,
+a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
+         filter: brightness(100%) opacity(70%);
+}
+
+/* fancy pancy feathers */
+
+#about > tbody > tr.right > td:nth-child(1) > a::after {
+	content:url('https://i.imgur.com/yjRausP.png');
+	position:absolute;
+	top:125px;
+	right:740px;
+	rotate:275deg;
+	scale: 1.15;
+	opacity:0.95;
+	
+}
+
+#player > tbody > tr.right > td:nth-child(2)::after {
+	content:url('https://i.imgur.com/yjRausP.png');
+	position:absolute;
+	top:70px;
+	right:0px;
+	rotate:90deg;
+	transform:scaleX(-1);
+	opacity:.9;
+}
+
+/* FEATURED LION BACKGROUND */
+
+.lionImage>div>img:first-child {
+		content: url('https://static.lioden.com/images/dynamic/backgrounds/equinox-full-moonBG.png')!important;
+		opacity:0.7
+}
+
+/* IN-CAVE BACKGROUND AND OTHER CAVE SHIT */
+
+.lionImage>img {
+		content: url('https://static.lioden.com/images/dynamic/backgrounds/equinox-full-moonBG.png')!important;
+		opacity: 0.7
+}
+
+p.center.b a {
+      color:#00070B !important;
+}
+
+p.center.b a:hover {
+      color: #E9ECFA !important;
+      transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+p.center.b {
+      color:#00070B !important;
+}
+
+.featured-lion {
+        background-color: #BCB9C8;
+}
+
+/* below code is by pluto (#52831) */
+@media only screen and (max-width: 767px) {
+    .featured-lion {
+        margin-bottom: 0;
+    }
+
+    .featured-lion p.center.b {
+        margin-top: -56px;
+    }
+}
+
+
+.table#pride.table a {
+  color: #00070B !important;
+}
+
+.table#pride.table a:hover {
+      color: #E9ECFA !important;
+      transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.td.top, small {
+      color:#00070B !important;
+}
+
+/* ITEM HEADERS AND BOXES FOR BRANCHES >:) */
+
+.item-footer {
+    background: rgba(188, 185, 200, 0.8) !important;
+}
+
+    .branchbox {
+	float: center;
+	overflow-y: clip;
+	overflow-x: hidden;
+        background: #D3D0DE;
+	color: #00070B;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 25px;
+	height: 182px;
+	width:  390px;
+	overflow: auto;
+}
