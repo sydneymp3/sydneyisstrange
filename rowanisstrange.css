@@ -1,47 +1,44 @@
 /*
-Free to use CSS template by Katie (#106445).
-This code may be altered, edited, or re-uploaded. 
-This template may be used to create paid codes (pre-mades and commissions).
-Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+<---------for use by #165331 ONLY.--------->
 
-Some codes were made by pandora, kat, and moses. they can be found in this forum:
+- this is an edited free to use css template by katie (#106445).
+
+- some codes were made by pandora, kat, and moses. they can be found in this forum:
 https://www.lioden.com/topic.php?id=304429448254
-thank you!!!! life and time saver frfr
+
 */
 
-/* FONT (From Google Fonts) */
+/* <---------font---------> */
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Rock+Salt&display=swap');
 
-/* BACKGROUND */
+/* <---------background---------> */
 
 body {
 	background: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/image.png') center center fixed;
 	background-size: 100%;
 	font-family: 'Caveat', cursive !important;
-font-family: 'Cedarville Cursive', cursive;
-font-family: 'Rock Salt', cursive;
+        font-family: 'Rock Salt';
         text-transform: lowercase !important;
 	color: #00070B
 }
 
-/* MAIN PANEL */
+/* <---------main panel---------> */
 
-/* RIGHT SIDE */
+/* <---------back panel---------> */
 .container.main {
-	background: rgba(233, 236, 250, 0.3);
+	background: rgba(233, 236, 250, 0.2);
 	border: none;
 	box-shadow: none;
 	border-radius: 0px
 }
 
-/* LEFT SIDE */
 .col-md-9 {
 	background: none;
         border-right: none
 }
 
-/* TOPBAR ("Welcome back, ___") */
+/* <---------topbar */
 
 .topbar {
 	background: #00070B;
@@ -51,38 +48,38 @@ font-family: 'Rock Salt', cursive;
 	border-radius:4px;
 }
 
-/* NAVBAR (Den/Crossroads/Etc.) */
+/* <---------navbar---------> */
 
 .navbar {
 	background: #636773;
 	border-bottom: none;
 	color: #000000;
-	border-radius: 0px
-        text-transform: lowercase !important;
+	border-radius: 0px;
+        transition: .2s ease-in-out;
 }
 
-/* NAVBAR BUTTON TEXT COLOR */
+/* <---------navbar text color---------> */
 
 .navbar li a {
 	color: white !important;
         font-family: 'Caveat';
         font-size: 22px;
         padding-top: 15px;
-        border-radius: 0px;
         text-transform: lowercase !important;
 }
 
-/* NAVBAR BUTTON HOVER */
+/* <---------navbar hover---------> */
 
 .navbar li a:hover {
 	background: rgba(211, 208, 222, 0.7) !important;
 	border-bottom: none;
 	color: #000000 !important;
-	border-radius: 0px
+	border-radius: 0px;
         text-transform: lowercase !important;
+        transition: .2s ease-in-out;
 }
 
-/* BREADCRUMB (Home / Den) */
+/* <---------breadcrumb (home / den)---------> */
 
 .breadcrumb {
 	background: rgba(190, 188, 201, 1)!important;
@@ -90,16 +87,18 @@ font-family: 'Rock Salt', cursive;
 	border-radius: 0px
 }
 
-/* BREADCRUMB TEXT */
+/* <---------breadcumb txt---------> */
 
 .breadcrumb .active {
 	color: #000000
 }
 
-/* CSS CREDIT */
+/* <---------css credit--------->
+
+- do NOT remove. */
 
 .breadcrumb::after {
-        content: "template by katie (#106445), edited by rowan (#165331) ★";
+        content: "css by rowan (#165331) ★";
         color: #000000;
         position: absolute;
         right: 11%; /* (This may need adjusting) */
@@ -124,16 +123,16 @@ font-family: 'Rock Salt', cursive;
         }
     }
 
-/* BOOKMARK BUTTON */
+/* <---------bookmark---------> */
 
 input.floatright, input.floatright:hover {
-	background: rgba(1, 1, 1, 0.5) !important;
+	background: #636773 !important;
         border: none !important;
 	border-radius: 0px;
-	color: #000000 !important;    
+	color: white !important;    
 }
 
-/* SWITCH ACCOUNT BUTTON */
+/* <---------switch account button---------> */
 
 button.button, button.button:hover {
 	background: #E9ECFA;
@@ -143,7 +142,7 @@ button.button, button.button:hover {
 	color: #00070B !important
 }
 
-/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+/* <---------alerts---------> */
 
 .alert,
 .alert-warning,
@@ -154,7 +153,7 @@ button.button, button.button:hover {
 	border-radius: 2px !important
 }
 
-/* BIGGEST HEADER ("___"'s DEN) */
+/* <---------biggest header---------> */
 
 h1 {
 	color: #000000;
@@ -164,7 +163,7 @@ h1 {
 }
 
 
-/* MEDIUM HEADER */
+/* <---------medium header---------> */
 
 h2 {
 	color: #000000;
@@ -173,14 +172,14 @@ h2 {
 }
 
 
-/* SMALL HEADER */
+/* <---------smallest header---------> */
 
 h3 {
 	color: #000000 !important;
 	font-size: 14px !important
 }
 
-/* RIGHT SIDE PANEL HEADER */
+/* <---------right side panel header---------> */
 
 .sidebar h3 {
 	color: #000000 !important;
@@ -188,18 +187,18 @@ h3 {
         font-family: 'Caveat'
 }
 
-/* RIGHT SIDE PANELS */
+/* <---------right side panels---------> */
 .panel {
-	background: rgba(190, 188, 201, 1) !important;
+	background: rgba(211, 208, 222, 0.5) !important;
 	box-shadow: none !important;
 	border: none !important;
 	color: #000000 !important;
 	border-radius: 3px
 }
 
-/* ENERGY BAR BACKGROUND */
+/* <---------energy bar background---------> */
 .progress {
-	background: rgba(233, 236, 250, 0.4);
+	background: rgba(233, 236, 250, 0.7);
 	color: #000000 !important;
 	border-radius: 0px !important
 }
@@ -212,55 +211,47 @@ div.progress-bar {
 border-radius:10px !important;
 }
 
-/* ENERGY BAR COLOR */
- 
+/* <---------bar colors---------> */
+
 div.progress-bar-warning {
     background: #3D4A62!important;
 }
- 
-/* HUNGER */
  
 div.progress-bar-danger {
     background: #65748B!important;
 }
  
-/* EXP. */
- 
 div.progress-bar-success {
     background: #7F7C8C!important; 
 }
  
-/* IMP. */
- 
 div.progress-bar {
     background: #E9ECFA;
 }
- 
- 
-/* ACHIEVMENTS */
+
 div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
 background: #7F7C8C!important;
 }
  
-/* ACCOUNT STANDING */
+/* <---------account standing %---------> */
 th > div > div.progress-bar.progress-bar-success {
     background: #E9ECFA!important;
 }
 
-/* ENERGY BAR TEXT */
+/* <---------energy bar text---------> */
 .progress div {
 	color: #000000 !important
 }
 
-/* CHAT */
+/* <---------chat---------> */
 
-.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: #D3D0DE !important;
+.s-chat-message:nth-child(even) /* even numbered messages */ {
+	background: #D3D0DE !importann;
         color: #000000 !important;
 	border: none !important
 }
 
-.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+.s-chat-message:nth-child(odd) /* odd numbered messages */ {
 	background: #E9ECFA !important;
         color: #00070B !important;
 	border: none !important
@@ -287,7 +278,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	border: none !important
 }
 
-/* COMMENT BOX */
+/* <---------comment box---------> */
 
 div#commentBox, div#makeComment, div#commentErrors {
     border-radius: 5px !important;
@@ -333,20 +324,20 @@ div#commentErrors {
     border: none !important;
 }
 
-/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+/* <---------lion info table---------> */
 
 
-/* PANEL BACKGROUND COLOR */
+/* <---------panel bg color---------> */
 
 .table {
-	background: #D3D0DE;
+	background: rgba(211, 208, 222, 0.3);
 	border: none !important;
 	border-collapse: separate;
 	border-radius: 5px
 }
 
 
-/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+/* <---------header colors---------> */
 
 #about > tbody > tr:nth-child(1) > td > div::after {
     content:', are you cereal?';
@@ -357,14 +348,14 @@ div#commentErrors {
 .top,
 th {
 	background: #00070B !important;
-	color: #D3D0DE !important;
+	color: #E9ECFA !important;
 	border-radius: 5px
 }
 
 .bottom,
 th { 
       background: #636773 !important;
-	color: #000000 !important;
+	color: #E9ECFA !important;
 	border-radius: 5px
 }
 
@@ -373,27 +364,40 @@ td.bottom a {
         text-decoration: none !important
 }
 
-/* Color behind "Level, Stats, Branch, Territory" etc. */
+/* <---------color behind "level, stats, branch, territory" etc--------->. */
 
 .inner-table .left {
 	background: #636773 !important;
         color: #E9ECFA;
-	border-radius: 5px
+	border-radius: 6px !important
 }
 
 
-/* Color behind the number of all of the things above */
+/* <---------color behind the number of all of the things above---------> */
 
 .inner-table .right {
-	background: #E9ECFA;
+	background: none;
 	border-radius: 5px !important
+}
+
+.inner-table .right a:link {
+        color: #ffffff !important;
+}
+
+.inner-table .right a:visited {
+        color: #ffffff !important;
+}
+
+.inner-table .right a:hover {
+        color: #E9ECFA !important;
+        transition: .2s ease-in-out;
 }
 
 td.right {
 	border-radius: 5px !important
 }
 
-/* IGNORE */
+/* <---------IGNORE---------> */
 .right_odd {
 	background: none !important
 }
@@ -414,7 +418,7 @@ td.right {
 
 
 
-/* FEED ALL, PLAY ALL */
+/* <---------fapa ---------> */
 
 .feature {
 	background: rgba(233, 236, 250, 0.5) !important;
@@ -423,7 +427,7 @@ td.right {
 	border-radius: 0px !important
 }
 
-/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+/* <---------"king dynasty, pride dynasty, achievements, showcase" panels---------> */
 
 .feature,
 div.left {
@@ -432,19 +436,19 @@ div.left {
 	border-radius: 0px !important
 }
 
-/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+/* <---------Block of color behind "Territory Description, Player Name, Avatar URL" etc.---------> */
 
 .table .left {
 	background: #E9ECFA;
         border-radius: 0px
 }
 
-/* Color behind the content of the elements listed above */
+/* <---------Color behind the content of the elements listed above---------> */
 
 input,
 select,
 textarea {
-	background: #E9ECFA !important;
+	background: white !important;
 	border: none !important;
 	border-radius: 0px !important;
 	color: #000000 !important;
@@ -452,7 +456,7 @@ textarea {
 	text-shadow: none !important
 }
 
-/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+/* <---------ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.)---------> */
 
 .item-header {
 	background: #636773 !important;
@@ -461,29 +465,29 @@ textarea {
 }
 
 .item {
-	background: #E9ECFA !important;
+	background: rgba(211, 208, 222, 0.4) !important;
 	border: none !important;
 	border-radius: 0px !important
 }
 
-/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+/* <---------ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH---------> */
 
 div.slider.round /* Background */ {
-	background: #D3D0DE !important
+	background: #E9ECFA !important
 }
 
 div.slider.round::before /* Circle Part */ {
 	background: #00070B !important
 }
 
-/* Copyright, Terms of Service, CoC, etc. */
+/* <---------Copyright, Terms of Service, CoC, etc.---------> */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
         color: white !important;
         text-shadow: none !important
 }
 
-/* LINK COLOR */
+/* <---------LINK COLOR---------> */
 
 a:link,
 a:visited {
@@ -514,7 +518,7 @@ a:visited {
 }
 
 
-/* LINK HOVER COLOR */
+/* <---------LINK HOVER COLOR---------> */
 
 a:hover {
 	color: #E9ECFA !important;
@@ -522,7 +526,7 @@ a:hover {
 }
 
 
-/* BOX CONTAINER */
+/* <---------BOX CONTAINER---------> */
 
 .boxcontainer {
 	background: none;
@@ -532,7 +536,7 @@ a:hover {
 	justify-content: center;
 }
 
-/* BOXES */
+/* <---------BOXES---------> */
 
 .box1 {
 	float: center;
@@ -549,8 +553,16 @@ a:hover {
 	overflow: auto;
 }
 
+.box1 a {
+      color: rgba(255, 255, 255, 0.7) !important;
+}
 
-/* PAGEDOLL */
+.box1 a:hover {
+      color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* <---------pagedoll---------> */
 
 
 .holetoanotheruniverse {
@@ -561,23 +573,23 @@ a:hover {
         width:18%;
 }
 
-/* SCROLL BAR */
+/* <---------SCROLL BAR---------> */
 
-/* WIDTH */
+/* <---------WIDTH---------> */
 
 ::-webkit-scrollbar {
 	width: 10px
 }
 
 
-/* BACKGROUND */
+/* <---------BACKGROUND---------> */
 
 ::-webkit-scrollbar-track {
 	background: #ffffff
 }
 
 
-/* "THUMB" */
+/* <---------"THUMB"---------> */
 
 ::-webkit-scrollbar-thumb {
 	background: #BCB9C8;
@@ -585,7 +597,7 @@ a:hover {
 }
 
 
-/* LION AND USER AVATAR OPACITY */
+/* <---------LION AND USER AVATAR OPACITY---------> */
 
 div#lion_image {
 	opacity: 0.7
@@ -596,7 +608,7 @@ table#player img {
 }
 
 
-/* CIRCULAR LION AND USER AVATAR */
+/* <---------CIRCULAR LION AND USER AVATAR---------> */
 
 div#lion_image {
 	border-radius: 50% !important;
@@ -612,7 +624,7 @@ width: 150px!important;
 height: 150px!important;
 }
 
-/* BACKGROUND OF MAIN LION ICON */
+/* <---------BACKGROUND OF MAIN LION ICON---------> */
 #lion_image>div>img:first-child {
 content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/image.png')!important;
 transform: scaleX-1)!important;
@@ -624,13 +636,13 @@ height: 500px!important;
 }
 
 
-/* LIODEN LOGO REPLACER */
+/* <---------LIODEN LOGO REPLACER---------> */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/Untitled20design204.png')
 }
 
-/* CAVE / MOUND IMAGES */
+/* <---------CAVE / MOUND IMAGES---------> */
 
 div.cave-grid>img /* Pregnant Lionesses */ {
 	content: url('https://raw.githubusercontent.com/sydneymp3/sydneyisstrange/e6a04be5c2aa5bb0cd1912dd56ca5fc5c37a5685/Hxz2npFnsYkjAAAAAElFTkSuQmCC.png') !important;
@@ -665,7 +677,7 @@ a[href$="unsorted.php?id=165331"]>div.cave-grid>img /* Unsorted */ {
 
 }
 
-.mound-grid img /* Mound(s) */ {
+.mound-grid img /* <---------mound(s)---------> */ {
 	background: url("https://static.lioden.com/images/items/Amusement/featherhornbill.png");
 	width: 0;
 	height: 0;
@@ -673,8 +685,8 @@ a[href$="unsorted.php?id=165331"]>div.cave-grid>img /* Unsorted */ {
 	padding-right: 130px
 }
 
-/* RBEGON, UGLY EMOJI UPDATE! let me edit them pleaaase lioden lioden please lioden lioden please i need to put silly little kiwi where u can gift me n shit 
-code by pandora and kat */
+/* <---------no more ugly emojis--------->
+- code by pandora and kat */
 
 #player > tbody > tr.right > td:nth-child(1) > div.xlarge > a:nth-child(1) {
 	font-size:0px;
@@ -751,25 +763,21 @@ code by pandora and kat */
     font-size:14px;
 }
 
-/* REMOVE WHITE LINE */
+/* <---------REMOVE WHITE LINE---------> */
     hr {
 display:none;
 }
 
-/* REMOVE 'Member ID' */
+/* <---------REMOVE 'Member ID'---------> */
 div.floatright > small {
     display:none;
-}
-/* FONT SIZE EDIT ON PLAYER BOX */
-div.center.h3 {
-    font-size:25px;
 }
  
 td.top, small {
     font-size:14px;
 }
 
-/* GB/SB ICONS */
+/* <---------GB/SB ICONS---------> */
  
 /* GOLD BEETLE */
 img[src$="gold.png"] {
@@ -785,21 +793,21 @@ img[src$="silver.png"] {
 height: 25px !important;
 }
 
-/* MEMBER ONLINE */
+/* <---------MEMBER ONLINE---------> */
  
 .member-online {
     background: #6C7891;
  
 }
  
-/* MEMBER OFFLINE */
+/* <---------MEMBER OFFLINE---------> */
  
 .member-offline {
     background: #00070B;
  
 }
 
-/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE---------> */
 
 @media only screen and (max-width: 767px) {
         .container.main .hidden-xs {
@@ -817,7 +825,7 @@ height: 25px !important;
 		}
 	}
 
-/* SOCIAL MEDIA */
+/* <---------SOCIAL MEDIA---------> */
 
  img[src$="iconFB.png"] {
         filter: brightness(100%) opacity(10%);
@@ -863,7 +871,7 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
          filter: brightness(100%) opacity(70%);
 }
 
-/* fancy pancy feathers */
+/* <---------fancy pancy feathers---------> */
 
 #about > tbody > tr.right > td:nth-child(1) > a::after {
 	content:url('https://i.imgur.com/yjRausP.png');
@@ -886,14 +894,14 @@ a[href="https://www.youtube.com/channel/UCPvEftRk5b1Ums5z9PNa_HA"]:focus img {
 	opacity:.9;
 }
 
-/* FEATURED LION BACKGROUND */
+/* <---------FEATURED LION BACKGROUND---------> */
 
 .lionImage>div>img:first-child {
 		content: url('https://static.lioden.com/images/dynamic/backgrounds/equinox-full-moonBG.png')!important;
 		opacity:0.7
 }
 
-/* IN-CAVE BACKGROUND AND OTHER CAVE SHIT */
+/* <---------IN-CAVE BACKGROUND AND OTHER CAVE SHIT---------> */
 
 .lionImage>img {
 		content: url('https://static.lioden.com/images/dynamic/backgrounds/equinox-full-moonBG.png')!important;
@@ -942,10 +950,15 @@ p.center.b {
       color:#00070B !important;
 }
 
-/* ITEM HEADERS AND BOXES FOR BRANCHES >:) */
+/* <---------ITEM HEADERS AND BOXES FOR BRANCHES >:)---------> */
 
 .item-footer {
-    background: rgba(188, 185, 200, 0.8) !important;
+    background: rgba(188, 185, 200, 0.6) !important;
+          border-radius: 5px !important;
+}
+
+.item-header {
+          border-radius: 5px !important;
 }
 
     .branchbox {
@@ -954,11 +967,11 @@ p.center.b {
 	overflow-x: hidden;
         background: #D3D0DE;
 	color: #00070B;
-	padding: 15px;
+	padding: 9px;
 	border: none;
 	border-radius: 5px;
 	margin: 25px;
-	height: 182px;
+	height: 170px;
 	width:  390px;
 	overflow: auto;
 }
