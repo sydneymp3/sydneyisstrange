@@ -1,11 +1,10 @@
 /*
 <---------for use by #165331 ONLY.--------->
 
-- this is an edited free to use css template by katie (#106445).
+- this is an edited free to use CSS template by katie (#106445).
 
 - some codes were made by pandora, kat, and moses. they can be found in this forum:
 https://www.lioden.com/topic.php?id=304429448254
-
 */
 
 /* <---------font---------> */
@@ -246,9 +245,9 @@ th > div > div.progress-bar.progress-bar-success {
 /* <---------chat---------> */
 
 .s-chat-message:nth-child(even) /* even numbered messages */ {
-	background: #D3D0DE !importann;
+	background: #D3D0DE !important;
         color: #000000 !important;
-	border: none !important
+	border: none !important;
 }
 
 .s-chat-message:nth-child(odd) /* odd numbered messages */ {
@@ -261,7 +260,7 @@ th > div > div.progress-bar.progress-bar-success {
 .s-chat-message__pinned /* Pinned Message */ {
 	background: #00070B !important;
         color: #E9ECFA !important;
-	border: none !important
+	border: none !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
@@ -275,7 +274,7 @@ div#chatMessageContainer {
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: #E9ECFA !important;
         color: #000000 !important;
-	border: none !important
+	border: none !important;
 }
 
 /* <---------comment box---------> */
@@ -953,12 +952,7 @@ p.center.b {
 /* <---------ITEM HEADERS AND BOXES FOR BRANCHES >:)---------> */
 
 .item-footer {
-    background: rgba(188, 185, 200, 0.6) !important;
-          border-radius: 5px !important;
-}
-
-.item-header {
-          border-radius: 5px !important;
+    background: rgba(188, 185, 200, 0.3) !important;
 }
 
     .branchbox {
@@ -967,11 +961,11 @@ p.center.b {
 	overflow-x: hidden;
         background: #D3D0DE;
 	color: #00070B;
-	padding: 9px;
+	padding: 15px;
 	border: none;
 	border-radius: 5px;
 	margin: 25px;
-	height: 170px;
+	height: 182px;
 	width:  390px;
 	overflow: auto;
 }
