@@ -279,6 +279,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 
 /* <---------comment box---------> */
 
+div#commentBox {
+          height: 220px !important; }
+
 div#commentBox, div#makeComment, div#commentErrors {
     border-radius: 5px !important;
     background: #D3D0DE!important; 
