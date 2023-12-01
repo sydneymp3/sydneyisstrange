@@ -573,6 +573,19 @@ a:hover {
         bottom: 0px;
         left: 0px;
         width:18%;
+        pointer-events: none;
+}
+
+.main::after {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    content: ' ';
+    width: 200px;
+    height: 200px;
+    background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/57424470_IPAlL82KJ6axxBQ.gif') center center no-repeat;
+    background-size: contain;
+    pointer-events: none;
 }
 
 /* <---------SCROLL BAR---------> */
@@ -972,5 +985,7 @@ p.center.b {
 	width:  390px;
 	overflow: auto;
 }
+
+
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat985.cur), auto !important;} /* End https://www.cursors-4u.com */
