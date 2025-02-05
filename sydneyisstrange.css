@@ -619,7 +619,7 @@ div#lion_image {
 }
 
 table#player img {
-	opacity: 1
+	opacity: 0.9
 }
 
 
@@ -634,7 +634,7 @@ div#lion_image {
 
 table#player img {
 	border-radius: 50% !important;
-	overflow: hidden
+	overflow: hidden;
 width: 150px!important;
 height: 150px!important;
 }
